@@ -1,0 +1,2 @@
+serviceClass: refatova.client.LoginServiceIntf
+path: 381B0D157CA35B73107A74199CAD8797.gwt.rpc
