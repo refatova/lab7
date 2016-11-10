@@ -15,7 +15,7 @@
 
     <servlet-mapping>
         <servlet-name>remoteLoggingServlet</servlet-name>
-        <url-pattern>/login/remote_logging</url-pattern>
+        <url-pattern>/login_module/remote_logging</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>helloServlet</servlet-name>
@@ -24,6 +24,6 @@
 
     <servlet-mapping>
         <servlet-name>helloServlet</servlet-name>
-        <url-pattern>/login/login</url-pattern>
+        <url-pattern>/login_module/login_module</url-pattern>
     </servlet-mapping>
 </web-app>

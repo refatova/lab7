@@ -29,7 +29,7 @@ public class LoginServiceIntfImpl extends RemoteServiceServlet implements LoginS
 
     @Override
     public String login(String login, String password, String locale)  {
-        log.info("Server received login: " + login);
+        log.info("Server received login_module: " + login);
         Locale browserLocal = new Locale(locale);
         Locale.setDefault(browserLocal);
         log.info("Server received locale: " + browserLocal);

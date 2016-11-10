@@ -93,6 +93,7 @@
                     <runTarget>Hello.html</runTarget>
                     <modules>
                         <module>Login</module>
+                        <module>Main</module>
                     </modules>
                 </configuration>
                 <executions>

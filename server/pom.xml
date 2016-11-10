@@ -81,7 +81,7 @@
                 <artifactId>gwt-maven-plugin</artifactId>
                 <configuration>
                     <moduleName>client.Login</moduleName>
-                    <moduleShortName>login</moduleShortName>
+                    <moduleShortName>login_module</moduleShortName>
                 </configuration>
             </plugin>
         </plugins>
