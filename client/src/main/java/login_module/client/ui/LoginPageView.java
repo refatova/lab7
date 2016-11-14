@@ -28,7 +28,10 @@ public interface LoginPageView extends IsWidget {
 
     public interface Presenter {
         void goTo(Place place);
+
         void sendUserToServer(String login, String password);
+
+
     }
 
 

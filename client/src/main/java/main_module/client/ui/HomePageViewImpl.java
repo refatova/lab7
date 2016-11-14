@@ -55,6 +55,11 @@ public class HomePageViewImpl extends Composite implements HomePageView{
         this.returnButton.setText(constants.quit());
     }
 
+    @Override
+    public void setExitButtonEnable(boolean flag) {
+        returnButton.setEnabled(flag);
+    }
+
     @UiHandler("returnButton")
     void onClickLogout(ClickEvent e)
     {

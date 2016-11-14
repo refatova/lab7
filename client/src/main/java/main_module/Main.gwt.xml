@@ -6,14 +6,12 @@
     <inherits name="login_module.Login"/>
     <entry-point class='main_module.client.Main'/>
 
-
-    <add-linker name="xsiframe"/>
-    <set-configuration-property name="devModeRedirectEnabled" value="true"/>
     <set-property name="gwt.logging.logLevel" value="INFO"/>
     <set-property name="gwt.logging.simpleRemoteHandler" value="ENABLED"/>
     <set-property name="gwt.logging.enabled" value="TRUE"/>
     <set-property name="gwt.logging.hasWidgetsHandler" value="DISABLED"/>
     <set-property name="compiler.stackMode" value="emulated"/>
+    <set-property name="user.agent" value="safari" />
     <extend-property name="locale" values="uk"/>
     <extend-property name="locale" values="ru"/>
     <set-configuration-property name="locale.useragent" value="Y"/>
@@ -21,4 +19,5 @@
     <replace-with class="login_module.client.ClientFactoryImpl">
         <when-type-is class="login_module.client.ClientFactory"/>
     </replace-with>
+    <set-configuration-property name="devModeRedirectEnabled" value="true"/>
 </module>

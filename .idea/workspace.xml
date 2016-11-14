@@ -2,293 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f6da36c-04c1-48a4-b9f5-bd7748a9cd12" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/Login.gwt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/ClientFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/ClientFactoryImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/Injector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/InjectorModule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/MainMVP.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/activity/HomeActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/activity/LoginActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/mvp/AppActivityMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/mvp/AppPlaceHistoryMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/place/HomePlace.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/place/LoginPlace.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/ui/GWTHelloConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/ui/GWTHelloConstants.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/ui/GWTHelloConstants_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/ui/GWTHelloConstants_uk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/ui/HomePageView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/ui/HomePageViewImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/ui/HomePageViewImpl.ui.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/ui/LoginPageView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/ui/LoginPageViewImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/main/java/client/ui/LoginPageViewImpl.ui.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/client_InjectorImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/client_Injector_InjectorGinjector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/mvp/AppPlaceHistoryMapperImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/GWTHelloConstants_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/GWTHelloConstants_ru.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/GWTHelloConstants_uk.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/HomePageViewImpl_MyBinderUiBinderImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/HomePageViewImpl_MyBinderUiBinderImpl_GenBundle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/HomePageViewImpl_MyBinderUiBinderImpl_GenBundle_default_InlineClientBundleGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/HomePageViewImpl_MyBinderUiBinderImpl_GenBundle_ru_InlineClientBundleGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/HomePageViewImpl_MyBinderUiBinderImpl_GenBundle_uk_InlineClientBundleGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/HomePageViewImpl_MyBinderUiBinderImpl_GenCss_style.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/HomePageViewImpl_MyBinderUiBinderImpl_TemplateImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/LoginPageViewImpl_LoginBinderUiBinderImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/LoginPageViewImpl_LoginBinderUiBinderImpl_GenBundle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/LoginPageViewImpl_LoginBinderUiBinderImpl_GenBundle_default_InlineClientBundleGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/LoginPageViewImpl_LoginBinderUiBinderImpl_GenBundle_ru_InlineClientBundleGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/LoginPageViewImpl_LoginBinderUiBinderImpl_GenBundle_uk_InlineClientBundleGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/LoginPageViewImpl_LoginBinderUiBinderImpl_GenCss_style.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/LoginPageViewImpl_LoginBinderUiBinderImpl_TemplateImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/client/ui/client_Injector_InjectorGinjector_fragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/core/shared/SerializableThrowable_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/event/shared/UmbrellaException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/event/shared/client_Injector_InjectorGinjector_fragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/http/client/RequestException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/i18n/client/constants/NumberConstantsImpl_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/i18n/client/constants/NumberConstantsImpl_ru.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/i18n/client/constants/NumberConstantsImpl_uk.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_ru.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_shared.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_uk.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/json/client/JSONException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/jsonp/client/TimeoutException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/lang/Login__EntryMethodHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/logging/shared/RemoteLoggingService_Proxy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/logging/shared/RemoteLoggingService_TypeSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/DocumentModeAsserter_DocumentModeProperty.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/impl/WindowImplIE_Resources_default_InlineClientBundleGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/impl/WindowImplIE_Resources_ru_InlineClientBundleGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/impl/WindowImplIE_Resources_uk_InlineClientBundleGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/IncompatibleRemoteServiceException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/InvocationException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/RpcTokenException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/SerializableException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/SerializationException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/SerializedTypeViolationException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/ServiceDefTarget_NoServiceEntryPointSpecifiedException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/XsrfToken_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/io/IOException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/io/UnsupportedEncodingException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/ArithmeticException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/ArrayIndexOutOfBoundsException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/ArrayStoreException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/AssertionError_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/Boolean_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/ClassCastException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/CloneNotSupportedException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/Error_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/Exception_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/IllegalArgumentException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/IllegalStateException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/IndexOutOfBoundsException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/NegativeArraySizeException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/NoSuchMethodException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/NullPointerException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/NumberFormatException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/RuntimeException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/SecurityException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/StackTraceElement_Array_Rank_1_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/StackTraceElement_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/StringIndexOutOfBoundsException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/String_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/Throwable_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/UnsupportedOperationException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/annotation/AnnotationFormatError_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/lang/annotation/AnnotationTypeMismatchException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/security/DigestException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/security/GeneralSecurityException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/security/NoSuchAlgorithmException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/util/Collections_EmptySet_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/util/ConcurrentModificationException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/util/EmptyStackException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/util/HashSet_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/util/LinkedHashSet_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/util/NoSuchElementException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/util/TooManyListenersException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/util/TreeMap_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/util/TreeSet_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/util/logging/Level_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/java/util/logging/LogRecord_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/javax/validation/ConstraintDeclarationException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/javax/validation/ConstraintDefinitionException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/javax/validation/ConstraintViolationException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/javax/validation/GroupDefinitionException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/javax/validation/UnexpectedTypeException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/user/client/rpc/core/javax/validation/ValidationException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/useragent/client/UserAgentAsserter_UserAgentAssertionError_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/useragent/client/UserAgentImplGecko1_8.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/useragent/client/UserAgentImplIe10.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/useragent/client/UserAgentImplIe8.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/useragent/client/UserAgentImplIe9.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/gwt/useragent/client/UserAgentImplSafari.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/com/google/web/bindery/event/shared/UmbrellaException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/refatova/client/LoginServiceIntf_Proxy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/refatova/client/LoginServiceIntf_TypeSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/.generated/refatova/client/UserNotFoundException_FieldSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/ClientFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/ClientFactoryImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/Injector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/InjectorModule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/MainMVP.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/activity/HomeActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/activity/LoginActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/activity/LoginActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/mvp/AppActivityMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/mvp/AppPlaceHistoryMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/place/HomePlace$Tokenizer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/place/HomePlace.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/place/LoginPlace.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/ui/GWTHelloConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/ui/HomePageView$Presenter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/ui/HomePageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/ui/HomePageViewImpl$MyBinderUiBinder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/ui/HomePageViewImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/ui/LoginPageView$Presenter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/ui/LoginPageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/ui/LoginPageViewImpl$LoginBinderUiBinder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/client/ui/LoginPageViewImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/Hello.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/Hello.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/bundle/MyBundle.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/bundle/MyBundle_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/bundle/MyBundle_uk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/ClientFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/ClientFactoryImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/Injector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/InjectorModule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/MainMVP.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/activity/HomeActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/activity/LoginActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/activity/LoginActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/mvp/AppActivityMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/mvp/AppPlaceHistoryMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/place/HomePlace$Tokenizer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/place/HomePlace.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/place/LoginPlace.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/ui/GWTHelloConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/ui/HomePageView$Presenter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/ui/HomePageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/ui/HomePageViewImpl$MyBinderUiBinder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/ui/HomePageViewImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/ui/LoginPageView$Presenter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/ui/LoginPageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/ui/LoginPageViewImpl$LoginBinderUiBinder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/classes/client/ui/LoginPageViewImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/rpcPolicyManifest/manifest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/rpcPolicyManifest/manifests/3A5D81F548477C5D96DFACFF24DF2719.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/rpcPolicyManifest/manifests/E8040F301A909ED2216AAD20FB996945.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/0E1F447B68ABF54BFE10642970C17321.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/4F766E20BA93E3ADB39C0143AE601E26.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/5B87D604A8DC16A6F60F827321DD05AD.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/609BE96DBCB34CB5E299B8B26C83E88F.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/723FFBDA0C56D67A7AC98EED04EEA102.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/7794A38FF8471E66BE407F4FA0CC6C00.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/79997D14F463471E6A46BC1304EE2E47.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/8167426461D17D486BC15D3E7CBB3D69.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/AE8585E8C31E40DAE3B3C474BD66357D.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/C56EE07123ADDB4E14758B3FC33EB847.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/CF0A837EF11887E28166EB0B3C7A1B3C.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/E6CC97CEFAF1BA46CDF384A5197362C5.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/EB41493121D6FB328172E5915AFDAE18.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/EF0D6162751B79C25DFFA681E28548E2.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/deploy/login/symbolMaps/FEC2F810B9146B01050763963C279E70.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/gin-2.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/guice-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/guice-assistedinject-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/gwt-log-2.6.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/gwt-servlet-2.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/h2-1.4.192.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/hibernate-core-4.3.6.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/jandex-1.1.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/jta-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/log4j-api-2.6.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/log4j-core-2.6.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/server-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/share-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/lib/xml-apis-1.4.01.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/0E1F447B68ABF54BFE10642970C17321.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/381B0D157CA35B73107A74199CAD8797.gwt.rpc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/4F766E20BA93E3ADB39C0143AE601E26.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/5B87D604A8DC16A6F60F827321DD05AD.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/609BE96DBCB34CB5E299B8B26C83E88F.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/723FFBDA0C56D67A7AC98EED04EEA102.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/7794A38FF8471E66BE407F4FA0CC6C00.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/79997D14F463471E6A46BC1304EE2E47.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/8167426461D17D486BC15D3E7CBB3D69.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/AA826CD1618726D30ED7F205C96312F3.gwt.rpc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/AE8585E8C31E40DAE3B3C474BD66357D.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/C56EE07123ADDB4E14758B3FC33EB847.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/CF0A837EF11887E28166EB0B3C7A1B3C.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/E6CC97CEFAF1BA46CDF384A5197362C5.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/EB41493121D6FB328172E5915AFDAE18.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/EF0D6162751B79C25DFFA681E28548E2.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/FEC2F810B9146B01050763963C279E70.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/clear.cache.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/compilation-mappings.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/gwt/standard/images/corner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/gwt/standard/images/hborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/gwt/standard/images/splitPanelThumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/gwt/standard/images/vborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/gwt/standard/standard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/gwt/standard/standard_rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/login.devmode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/client/login/login.nocache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE0C200" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE1096B" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE1099F" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE10DCA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE10FD2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE1108B" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE111E1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE11203" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE11343" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE11397" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE113C4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE113D2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/gwt-unitCache/gwt-unitCache-f160a61272c5ebe805cd2d3d3256ed3ecf14893f-000001584BE11449" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/server-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/target/share-1.0-SNAPSHOT-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/share/target/share-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/classes/refatova/LoginServiceIntfImpl.class" afterPath="$PROJECT_DIR$/server/target/classes/refatova/LoginServiceIntfImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/target/classes/refatova/client/LoginServiceIntf.class" afterPath="$PROJECT_DIR$/share/target/classes/refatova/client/LoginServiceIntf.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_gwt_dev_2_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_gwt_servlet_2_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_gwt_user_2_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_jsinterop_jsinterop_annotations_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_jsinterop_jsinterop_annotations_sources_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/bundle/MyBundle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/bundle/MyBundle_ru.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/bundle/MyBundle_uk.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/ClientFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/ClientFactoryImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/Injector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/InjectorModule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/MainMVP.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/activity/LoginActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/activity/LoginActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/mvp/AppActivityMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/mvp/AppPlaceHistoryMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/place/LoginPlace.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/ui/GWTHelloConstants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/ui/LoginPageView$Presenter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/ui/LoginPageView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/ui/LoginPageViewImpl$LoginBinderUiBinder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/login_module/client/ui/LoginPageViewImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/main_module/client/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/main_module/client/activity/HomeActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/main_module/client/place/HomePlace$Tokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/main_module/client/place/HomePlace.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/main_module/client/ui/HomePageView$Presenter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/main_module/client/ui/HomePageView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/main_module/client/ui/HomePageViewImpl$MyBinderUiBinder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/main_module/client/ui/HomePageViewImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/classes/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/classes/init.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/classes/log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/classes/refatova/Account.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/classes/refatova/HibernateUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/classes/refatova/LoginServiceIntfImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/target/classes/refatova/MyRemoteLoggingServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/share/target/classes/refatova/client/LoginServiceIntf.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/share/target/classes/refatova/client/LoginServiceIntfAsync.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/share/target/classes/refatova/client/UserNotFoundException.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/client_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/client_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/client.iml" afterPath="$PROJECT_DIR$/client/client.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/pom.xml" afterPath="$PROJECT_DIR$/client/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/login_module/Login.gwt.xml" afterPath="$PROJECT_DIR$/client/src/main/java/login_module/Login.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/login_module/client/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/client/src/main/java/login_module/client/activity/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageView.java" afterPath="$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageViewImpl.java" afterPath="$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageViewImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/main_module/Main.gwt.xml" afterPath="$PROJECT_DIR$/client/src/main/java/main_module/Main.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/main_module/client/Main.java" afterPath="$PROJECT_DIR$/client/src/main/java/main_module/client/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/main_module/client/activity/HomeActivity.java" afterPath="$PROJECT_DIR$/client/src/main/java/main_module/client/activity/HomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageView.java" afterPath="$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageViewImpl.java" afterPath="$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageViewImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/webapp/Hello.css" afterPath="$PROJECT_DIR$/client/src/main/webapp/Hello.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/webapp/Hello.html" afterPath="$PROJECT_DIR$/client/src/main/webapp/Hello.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/classes/bundle/MyBundle.properties" afterPath="$PROJECT_DIR$/client/target/classes/bundle/MyBundle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/classes/bundle/MyBundle_ru.properties" afterPath="$PROJECT_DIR$/client/target/classes/bundle/MyBundle_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/target/classes/bundle/MyBundle_uk.properties" afterPath="$PROJECT_DIR$/client/target/classes/bundle/MyBundle_uk.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/pom.xml" afterPath="$PROJECT_DIR$/server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.iml" afterPath="$PROJECT_DIR$/server/server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/main/java/refatova/LoginServiceIntfImpl.java" afterPath="$PROJECT_DIR$/server/src/main/java/refatova/LoginServiceIntfImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/server/target/classes/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/classes/init.sql" afterPath="$PROJECT_DIR$/server/target/classes/init.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/target/classes/log4j2.xml" afterPath="$PROJECT_DIR$/server/target/classes/log4j2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/share.iml" afterPath="$PROJECT_DIR$/share/share.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/src/main/java/refatova/client/LoginServiceIntf.java" afterPath="$PROJECT_DIR$/share/src/main/java/refatova/client/LoginServiceIntf.java" />
     </list>
     <ignored path="lab6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -313,112 +86,42 @@
     <favorites_list name="lab6" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Login.gwt.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/Login.gwt.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.gwt.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/Main.gwt.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="94" column="46" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
+            <state relative-caret-position="450">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/Main.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hello.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/webapp/Hello.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainMVP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/MainMVP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/activity/LoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="73" column="49" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBundle.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/resources/bundle/MyBundle.properties">
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GWTHelloConstants.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/ui/GWTHelloConstants.properties">
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/refatova/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/refatova/HibernateUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginServiceIntfImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/refatova/LoginServiceIntfImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+            <state relative-caret-position="405">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="28" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -430,6 +133,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -449,11 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/main/java/client/ui/LoginPageViewImpl.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/UserNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LoginServiceIntfAsync.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/client/activity/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/client/mvp/AppActivityMapper.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/client/mvp/AppPlaceHistoryMapper.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/client/Injector.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/client/InjectorModule.java" />
@@ -467,8 +167,6 @@
         <option value="$PROJECT_DIR$/share/src/main/java/refatova/LoginServiceIntfAsync.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/client/activity/LoginActivity.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/client/ui/HomePageViewImpl.java" />
-        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/share/src/main/java/refatova/client/LoginServiceIntfAsync.java" />
         <option value="$PROJECT_DIR$/server/pom.xml" />
         <option value="$PROJECT_DIR$/share/src/main/java/refatova/Shared.gwt.xml" />
@@ -485,20 +183,28 @@
         <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/place/LoginPlace.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/mvp/AppPlaceHistoryMapper.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/ui/GWTHelloConstants.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageView.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageViewImpl.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/Injector.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/InjectorModule.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/activity/LoginActivity.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/mvp/AppActivityMapper.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/MainMVP.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/main_module/client/activity/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageViewImpl.java" />
-        <option value="$PROJECT_DIR$/client/pom.xml" />
         <option value="$PROJECT_DIR$/client/target/client/Hello.html" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/Home.css" />
+        <option value="$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageViewImpl.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageView.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageView.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/activity/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/main_module/client/activity/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/main_module/client/Main.java" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/Home.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageViewImpl.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageViewImpl.ui.xml" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/Hello.html" />
         <option value="$PROJECT_DIR$/client/src/main/java/login_module/Login.gwt.xml" />
         <option value="$PROJECT_DIR$/client/src/main/java/main_module/Main.gwt.xml" />
-        <option value="$PROJECT_DIR$/client/src/main/webapp/Hello.html" />
+        <option value="$PROJECT_DIR$/client/src/main/webapp/Hello.css" />
+        <option value="$PROJECT_DIR$/client/pom.xml" />
       </list>
     </option>
   </component>
@@ -507,6 +213,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -521,11 +234,115 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="share" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="share" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="server" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="server" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="lab6" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="lab6" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="client Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="client Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -553,7 +370,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -722,6 +538,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -814,44 +634,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'MyBundle'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -876,6 +658,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main_module" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1015,16 +801,89 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
+              <option name="myItemId" value="place" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'GWTHelloConstants'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login_module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login_module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1033,9 +892,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab5-master" />
     <property name="SearchEverywhereHistoryKey" value="LoginActivity&#9;FILE&#9;file:///Users/Saniye/Projects/GWT/lab6/client/src/main/java/client/activity/LoginActivity.java" />
-    <property name="FullScreen" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1053,7 +913,7 @@
       <recent name="$PROJECT_DIR$/server/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="GWT Configuration.Unnamed">
+  <component name="RunManager" selected="Maven.prod">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -1296,6 +1156,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -1496,6 +1357,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1518,6 +1385,62 @@
       <option name="WORKING_DIRECTORY" value="" />
       <method />
     </configuration>
+    <configuration default="false" name="prod" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map>
+                <entry key="prod" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="dev" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map>
+                <entry key="dev" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="client:war" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="false" name="gwt:run" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -1535,21 +1458,24 @@
               </list>
             </option>
             <option name="profilesMap">
-              <map />
+              <map>
+                <entry key="dev" value="true" />
+              </map>
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/../task6" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
       <method />
     </configuration>
     <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.4" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Hello.html/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="client:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/Hello.html" />
           </settings>
         </artifact>
       </deployment>
@@ -1616,10 +1542,12 @@
         </option>
       </method>
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="GWT Configuration.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.gwt:run" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.prod" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.dev" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.gwt:run" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -1635,47 +1563,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478714783045</updated>
-      <workItem from="1478714975226" duration="25271000" />
+      <workItem from="1478714975226" duration="38825000" />
+      <workItem from="1478812432272" duration="6360000" />
+      <workItem from="1478860638015" duration="28820000" />
+      <workItem from="1479111615946" duration="3824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25271000" />
+    <option name="totallyTimeSpent" value="77829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="733" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.203125" sideWeight="0.503231" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17723577" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14216478" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42439026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.203125" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17613636" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16882068" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21463415" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30539772" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1825525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4247159" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25426137" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2819063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30406505" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21138212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1698,119 +1629,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/GreetingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/client/UserNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/src/main/java/refatova/client/LoginServiceIntfAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/src/main/java/refatova/client/Shared.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/share.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/src/main/java/refatova/client/LoginServiceIntf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/refatova:lab6:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>refatova:lab6:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">refatova:lab6:1.0-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="30.5" y="15.0" />
-          <SelectedNodes />
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/src/main/java/refatova/Shared.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/refatova/MyRemoteLoggingServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1824,35 +1642,14 @@
         <state relative-caret-position="135">
           <caret line="9" column="85" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/login/client/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/Main.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/login/client/Main.java" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/Main.gwt.xml" />
     <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/ClientFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1863,57 +1660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/place/LoginPlace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/ui/GWTHelloConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageViewImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageViewImpl.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1478143764000" expanded="true" signature="211:278" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/Injector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1927,129 +1677,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/mvp/AppPlaceHistoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/activity/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/place/HomePlace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageViewImpl.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1478143764000" expanded="true" signature="208:275" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageViewImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/mvp/AppActivityMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/Main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/target/client/Hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/Main.css" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/Main.html" />
     <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/ClientFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/Login.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="25" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/Main.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2060,51 +1693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="94" column="46" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/Hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/MainMVP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/activity/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="73" column="49" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2115,7 +1703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2126,7 +1713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2146,10 +1732,281 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/Home.css" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageViewImpl.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/place/HomePlace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/gwt-2.8.0/gwt-user.jar!/com/google/gwt/user/client/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1873">
+          <caret line="717" column="78" selection-start-line="717" selection-start-column="78" selection-end-line="717" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/activity/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/ui/HomePageViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/mvp/AppPlaceHistoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/place/LoginPlace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/ui/GWTHelloConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/Home.html" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/gwt/gwt-dev/2.8.0/gwt-dev-2.8.0.jar!/com/google/gwt/dev/codeserver/OutboxDir.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/target/client/Login.html" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageViewImpl.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1478856531000" expanded="true" signature="211:278" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/target/client/Hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/MainMVP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/refatova/client/LoginServiceIntfAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/refatova/client/LoginServiceIntf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/refatova/LoginServiceIntfImpl.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1317#1318#0" expanded="false" />
+            <element signature="e#1376#1377#0" expanded="false" />
+            <element signature="e#1429#1430#0" expanded="false" />
+            <element signature="e#1484#1485#0" expanded="false" />
+            <element signature="e#1541#1542#0" expanded="false" />
+            <element signature="e#1600#1601#0" expanded="false" />
+            <element signature="e#1665#1666#0" expanded="false" />
+            <element signature="e#1710#1711#0" expanded="false" />
+            <element signature="e#1778#1779#0" expanded="false" />
+            <element signature="e#1820#1821#0" expanded="false" />
+            <element signature="e#1889#1890#0" expanded="false" />
+            <element signature="e#1933#1934#0" expanded="false" />
+            <element signature="e#2076#2077#0" expanded="false" />
+            <element signature="e#2119#2120#0" expanded="false" />
+            <element signature="e#2172#2173#0" expanded="false" />
+            <element signature="e#2212#2213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/ui/LoginPageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="28" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/activity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2104#2105#0" expanded="false" />
+            <element signature="e#2166#2167#0" expanded="false" />
+            <element signature="e#2836#2837#0" expanded="false" />
+            <element signature="e#2911#2912#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/client/mvp/AppActivityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/main_module/Main.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/Hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/target/client/login_module/login_module.nocache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/webapp/Hello.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/login_module/Login.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding />
         </state>
       </provider>

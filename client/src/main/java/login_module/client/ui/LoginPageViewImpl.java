@@ -6,7 +6,9 @@ import com.google.gwt.i18n.client.LocaleInfo;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.*;
+import main_module.client.place.HomePlace;
 
 import java.util.logging.Logger;
 
@@ -17,6 +19,7 @@ import java.util.logging.Logger;
 public class LoginPageViewImpl extends Composite implements LoginPageView {
     interface LoginBinderUiBinder extends UiBinder<Widget, LoginPageViewImpl> {
     }
+
     private static LoginBinderUiBinder ourUiBinder = GWT.create(LoginBinderUiBinder.class);
 
     private GWTHelloConstants constants = GWT.create(GWTHelloConstants.class);
@@ -25,6 +28,7 @@ public class LoginPageViewImpl extends Composite implements LoginPageView {
     private Presenter presenter;
     @UiField
     Button loginButton;
+
     @UiField
     TextBox nameField;
     @UiField
@@ -91,20 +95,19 @@ public class LoginPageViewImpl extends Composite implements LoginPageView {
         if (!loginToServer.isEmpty() && !passwordToServer.isEmpty()) {
             setLoginButtonEnable(false);
             presenter.sendUserToServer(loginToServer, passwordToServer);
-            logger.info(LOGIN_PAGE +"Login "+ loginToServer + " "+ " were sent to server");
+            logger.info(LOGIN_PAGE + "Login " + loginToServer + " " + " were sent to server");
         } else {
             logger.info(LOGIN_PAGE + "Error message \"Login and password fields are empty\"");
             setErrorMessage(constants.validationError());
         }
-
     }
+
 
     public LoginPageViewImpl() {
         initWidget(ourUiBinder.createAndBindUi(this));
         logger.info(LOGIN_PAGE + "Login page loaded");
         logger.info(LOGIN_PAGE + "Browser locale is " + LocaleInfo.getCurrentLocale().getLocaleName());
     }
-
 
 
 }

@@ -17,6 +17,8 @@
         <servlet-name>remoteLoggingServlet</servlet-name>
         <url-pattern>/login_module/remote_logging</url-pattern>
     </servlet-mapping>
+
+
     <servlet>
         <servlet-name>helloServlet</servlet-name>
         <servlet-class>refatova.LoginServiceIntfImpl</servlet-class>

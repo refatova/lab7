@@ -1,10 +1,4 @@
-/*body {*/
-/*background-color: white;*/
-/*color: black;*/
-/*font-family: Arial, sans-serif;*/
-/*font-size: small;*/
-/*margin: 8px;*/
-/*}*/
+
 
 #header {
     background-color: gainsboro;
@@ -18,21 +12,6 @@
     padding: 10px;
 }
 
-/*#middle {*/
-/*background-color: white;*/
-/*height: 200px;*/
-/*}*/
-
-/*#footer {*/
-/*background-color: white;*/
-/*border-bottom: rgba(101, 101, 101, 0.76);*/
-/*color: black;*/
-/*font-family: Arial, sans-serif;*/
-/*font-size: small;*/
-/*margin: 8px;*/
-/*text-align: center;*/
-/*padding-bottom: 1px;*/
-/*}*/
 
 hr {
     border: none; /* Убираем границу */
@@ -42,7 +21,6 @@ hr {
 }
 
 #content {
-    /*padding: 60px;*/
     margin-left: auto;
     margin-right: auto;
     width: 270px;
@@ -56,7 +34,6 @@ hr {
 
 
 .qwtverticalPanel {
-    /*font-size: small;*/
     font-family: Arial;
     color: green;
     padding-bottom: 30px;
@@ -70,28 +47,9 @@ hr {
 }
 
 #tr {
-    /*padding-bottom: 5px;*/
-    /*padding-top: 5px;*/
-    /*width: 100px;*/
     text-align: center;
 }
 
-/*#td {*/
-/*padding-right: 5px;*/
-/*padding-left: 5px;*/
-/*height: 50px;*/
-/*}*/
-
-/*.homePage {*/
-/*text-align: left;}*/
-
-/*.labels {*/
-/*text-align: left;*/
-/*}*/
-
-/*.textField{*/
-/*text-align: right;*/
-/*}*/
 
 * {
     margin: 0;
