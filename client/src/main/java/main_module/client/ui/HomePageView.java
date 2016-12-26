@@ -16,11 +16,8 @@ public interface HomePageView extends IsWidget {
 
     void setExitButtonText();
 
-    void setExitButtonEnable(boolean flag);
-
     public interface Presenter {
         void goTo(Place place);
-        void openWindow(String name, String url);
     }
 }
 

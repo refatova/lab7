@@ -20,8 +20,6 @@
         <setting name="webFacet" value="Web" />
         <packaging>
           <module name="Main" enabled="false" />
-          <module name="login_module.Login" enabled="false" />
-          <module name="main_module.Main" enabled="false" />
         </packaging>
       </configuration>
     </facet>

@@ -14,7 +14,7 @@
                     <g:Label  ui:field="labelName"/>
                 </g:cell>
                 <g:cell width="150px" height="40px" horizontalAlignment="ALIGN_RIGHT" verticalAlignment="ALIGN_MIDDLE">
-                    <g:TextBox name="username" ui:field="nameField"/>
+                    <g:TextBox name="username" ui:field="nameField" value="ivan"/>
                 </g:cell>
             </g:HorizontalPanel>
 
@@ -23,7 +23,7 @@
                     <g:Label  ui:field="labelPassword" />
                 </g:cell>
                 <g:cell width="150px" height="40px" horizontalAlignment="ALIGN_RIGHT" verticalAlignment="ALIGN_MIDDLE">
-                    <g:PasswordTextBox name="password" ui:field="passwordTextBox" />
+                    <g:PasswordTextBox name="password" ui:field="passwordTextBox" value="secret"/>
                 </g:cell>
             </g:HorizontalPanel>
         </g:VerticalPanel>

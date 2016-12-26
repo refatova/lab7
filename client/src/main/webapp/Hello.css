@@ -1,5 +1,4 @@
 
-
 #header {
     background-color: gainsboro;
     color: black;
@@ -8,10 +7,9 @@
     text-align: left;
 }
 
-#logoContainer{
+#logoContainer {
     padding: 10px;
 }
-
 
 hr {
     border: none; /* Убираем границу */
@@ -28,10 +26,17 @@ hr {
 
 }
 
-#cont{
-    margin:10%;
+#content_home {
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    text-align: center;
+
 }
 
+#cont {
+    margin: 10%;
+}
 
 .qwtverticalPanel {
     font-family: Arial;
@@ -49,7 +54,6 @@ hr {
 #tr {
     text-align: center;
 }
-
 
 * {
     margin: 0;
@@ -73,6 +77,9 @@ body {
     height: 100%;
 }
 
+
+
+
 .footer {
     background-color: gainsboro;
     padding: 20px;
@@ -81,6 +88,10 @@ body {
 p {
     text-align: center;
     vertical-align: middle;
+}
+
+a {
+   margin-left: 90%;
 }
 
 

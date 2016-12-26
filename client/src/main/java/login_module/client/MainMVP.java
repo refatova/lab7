@@ -16,6 +16,7 @@ import login_module.client.mvp.AppPlaceHistoryMapper;
 import login_module.client.place.LoginPlace;
 
 
+
 /**
  * Created by Saniye on 27.10.16.
  */
@@ -23,7 +24,6 @@ public class MainMVP implements EntryPoint {
 
     private Place defaultPlace = new LoginPlace();
     private SimplePanel appWidget = new SimplePanel();
-
 
     @Override
     public void onModuleLoad() {
@@ -37,9 +37,10 @@ public class MainMVP implements EntryPoint {
         AppPlaceHistoryMapper historyMapper = GWT.create(AppPlaceHistoryMapper.class);
         PlaceHistoryHandler historyHandler = new PlaceHistoryHandler(historyMapper);
         historyHandler.register(placeController, eventBus, defaultPlace);
-
         RootPanel.get("content").add(appWidget);
         historyHandler.handleCurrentHistory();
+
+
     }
 
 }

@@ -4,8 +4,6 @@ package login_module.client.mvp;
 import login_module.client.ClientFactory;
 import login_module.client.activity.LoginActivity;
 import login_module.client.place.LoginPlace;
-import main_module.client.activity.HomeActivity;
-import main_module.client.place.HomePlace;
 import com.google.gwt.activity.shared.Activity;
 import com.google.gwt.activity.shared.ActivityMapper;
 import com.google.gwt.place.shared.Place;
@@ -26,9 +24,7 @@ public class AppActivityMapper  implements ActivityMapper {
 
     @Override
     public Activity getActivity(Place place) {
-        if (place instanceof HomePlace)
-            return new HomeActivity((HomePlace) place,clientFactory);
-        else if (place instanceof LoginPlace)
+         if (place instanceof LoginPlace)
             return new LoginActivity(clientFactory);
 
         return null;

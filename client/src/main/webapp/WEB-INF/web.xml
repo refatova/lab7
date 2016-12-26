@@ -28,4 +28,22 @@
         <servlet-name>helloServlet</servlet-name>
         <url-pattern>/login_module/login_module</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>help</servlet-name>
+       <servlet-class>refatova.HelpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>help</servlet-name>
+        <url-pattern>/help</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>home</servlet-name>
+        <servlet-class>refatova.GreetingService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>home</servlet-name>
+        <url-pattern>/main_module/main_module</url-pattern>
+    </servlet-mapping>
 </web-app>

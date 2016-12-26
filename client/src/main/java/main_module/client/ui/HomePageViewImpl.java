@@ -5,14 +5,14 @@ import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
-import com.google.gwt.user.client.ui.Button;
-import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.Label;
-import com.google.gwt.user.client.ui.Widget;
+import com.google.gwt.user.client.Cookies;
+import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.ui.*;
 import login_module.client.place.LoginPlace;
 import login_module.client.ui.GWTHelloConstants;
 
 
+import javax.servlet.http.Cookie;
 import java.util.logging.Logger;
 
 /**
@@ -26,7 +26,6 @@ public class HomePageViewImpl extends Composite implements HomePageView{
     private static Logger logger = Logger.getLogger(HomePageViewImpl.class.toString());
     private static final String HOME_PAGE = "HomePage: ";
     private Presenter presenter;
-//    private String greetingString;
 
     @UiField
     Label greetingMessage;
@@ -40,7 +39,6 @@ public class HomePageViewImpl extends Composite implements HomePageView{
 
     @Override
     public void setGreetingMessage(String helloString) {
-//        this.greetingString=helloString;
         greetingMessage.setText(helloString);
         logger.info(HOME_PAGE + "Display message: " + helloString);
     }
@@ -55,16 +53,13 @@ public class HomePageViewImpl extends Composite implements HomePageView{
         this.returnButton.setText(constants.quit());
     }
 
-    @Override
-    public void setExitButtonEnable(boolean flag) {
-        returnButton.setEnabled(flag);
-    }
 
     @UiHandler("returnButton")
     void onClickLogout(ClickEvent e)
     {
         logger.info(HOME_PAGE + "Return button pushed");
-        presenter.goTo(new LoginPlace());
+        Cookies.removeCookie("logged_user");
+        Window.open("Hello.html","","");
     }
 
 }

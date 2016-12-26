@@ -1,12 +1,12 @@
 package login_module.client.activity;
 
 
+import com.google.gwt.user.client.Cookies;
+import com.google.gwt.user.client.Window;
 import login_module.client.ClientFactory;
-import login_module.client.Injector;
 import login_module.client.ui.GWTHelloConstants;
 import login_module.client.ui.LoginPageView;
 import login_module.client.ui.LoginPageViewImpl;
-import main_module.client.place.HomePlace;
 
 import com.google.gwt.activity.shared.AbstractActivity;
 import com.google.gwt.core.client.GWT;
@@ -15,6 +15,8 @@ import com.google.gwt.i18n.client.LocaleInfo;
 import com.google.gwt.place.shared.Place;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.AcceptsOneWidget;
+
+import login_module.client.Injector;
 import refatova.client.LoginServiceIntfAsync;
 import refatova.client.LoginServiceIntf;
 
@@ -61,7 +63,7 @@ public class LoginActivity extends AbstractActivity implements LoginPageView.Pre
     @Override
     public void sendUserToServer(String login, String password) {
         loginService.login(login, password, LocaleInfo.getCurrentLocale().getLocaleName(),
-                new AsyncCallback<String>() {
+                new AsyncCallback<Void>() {
                     @Override
                     public void onFailure(Throwable caught) {
                         loginPageView.setErrorMessage(constants.serverError());
@@ -70,13 +72,10 @@ public class LoginActivity extends AbstractActivity implements LoginPageView.Pre
                     }
 
                     @Override
-                    public void onSuccess(String result) {
-                        goTo(new HomePlace(result));
+                    public void onSuccess(Void result) {
+                        if( Cookies.getCookie("logged_user")!=null)
+                        Window.open("Home.html","_self","");
                     }
                 });
     }
-
-
-
-
 }

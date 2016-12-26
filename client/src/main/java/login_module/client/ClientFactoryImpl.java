@@ -2,7 +2,6 @@ package login_module.client;
 
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.place.shared.PlaceController;
-import login_module.client.ClientFactory;
 
 
 /**

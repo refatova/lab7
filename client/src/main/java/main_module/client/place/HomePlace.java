@@ -9,22 +9,17 @@ import com.google.gwt.place.shared.PlaceTokenizer;
 public class HomePlace extends Place {
     private String greetingMessage;
 
-    public HomePlace(String token){
-        this.greetingMessage=token;
+    public HomePlace(String token) {
+        this.greetingMessage = token;
     }
 
-    public String getGreetingMessage(){
+    public String getGreetingMessage() {
         return greetingMessage;
     }
 
-
-
-    public static class Tokenizer implements PlaceTokenizer<HomePlace>
-    {
-
+    public static class Tokenizer implements PlaceTokenizer<HomePlace> {
         @Override
-        public HomePlace getPlace(String token)
-        {
+        public HomePlace getPlace(String token) {
             return new HomePlace(token);
         }
 

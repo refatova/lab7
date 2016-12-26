@@ -79,6 +79,7 @@
                         <version>2.8.0-rc2</version>
                         <configuration>
                             <draftCompile>true</draftCompile>
+                            <extraJvmArgs>-Xmx512M -Xss1024k</extraJvmArgs>
                             <hostedWebapp>${webappDirectory}</hostedWebapp>
                             <noServer>true</noServer>
                             <port>8080</port>
